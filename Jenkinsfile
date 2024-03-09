@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo "This is the Build stage."
                 build 'PES1UG21CS219-1'
-                sh 'g++ ./newHello.cpp -o output'
+                sh 'g++ ./nonexistantfile.cpp -o output'
                 echo "Build Stage Successful. Yay"
             }
         }
